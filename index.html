@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="shortcut icon" href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fdoc.klbtheme.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fbacola-logo-1.png&tbnid=DyLp68bEagxLAM&vet=12ahUKEwic0v6nxe6CAxW83DgGHfdpDJwQMygAegQIARBD..i&imgrefurl=https%3A%2F%2Fdoc.klbtheme.com%2Fbacola%2F&docid=eKKW03_1gMkQTM&w=760&h=203&q=bacola%20logo&ved=2ahUKEwic0v6nxe6CAxW83DgGHfdpDJwQMygAegQIARBD" type="">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="container-fluid first-header">
+                <div class="upper-head d-flex justify-content-evenly my-2">
+                    <div class="upper-nav">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link-body-emphasis">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link-body-emphasis">My account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link-body-emphasis">Wishlist</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link-body-emphasis">Order Tracking</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="upper_head d-flex justify-content-evenly align-items-center">
+                        <span><i class="bi bi-shield-check"></i>100% Secure delivery without contacting the
+                            courier</span>
+                        <span class="px-3">Need help? Call Us:<a href="#">+0020 500</a></span>
+                        <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Hindi</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                        </ul>
+                        <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            USD
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                            <li><a class="dropdown-item" href="#">INR</a></li>
+                            <li><a class="dropdown-item" href="#">EURO</a></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <hr>
+                <div class=" container  py-1 mb-1">
+                    <div class="d-flex justify-content-lg-between">
+                        <div class="logo d-flex">
+                            <a href="/" class="d-flex align-items-center mb-3">
+                                <img src="img/bacola-logo.png" width="164px">
+                            </a>
+                            <div class="btn-group px-2">
+                                <button type="button" class="btn btn-close-white dropdown-toggle fs-6 border border-secondary"
+                                    data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                                    Your Location<br><span class="text-primary">Select A Location</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-lg-end">
+                                    <h2 class="fs-5">Choose your Delivery Location</h2>
+                                    <p class="fs-6">Enter your address and we will specify the offer for your area.</p>
+                                    <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                                        <input type="search" class="form-control form-control-lg"
+                                            placeholder="Search..." aria-label="Search">
+                                    </form>
+                                    <li><button class="dropdown-item" type="button">Select a location</button></li>
+                                    <li><button class="dropdown-item" type="button">Australia</button></li>
+                                    <li><button class="dropdown-item" type="button">Argentina</button></li>
+                                    <li><button class="dropdown-item" type="button">India</button></li>
+                                    <li><button class="dropdown-item" type="button">United State</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <form class="col-6  mb-3 mb-lg-0" role="search">
+                            <input type="search" class="form-control" placeholder="Search..."
+                                aria-label="Search">
+                        </form>
+                        <div class="sign">
+                            <a href="#"><i class="bi bi-person fs-4"></i></a>
+                            <a href="#" class="badge text-bg-secondary"><i class="bi bi-bag fs-4"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="drop-down d-flex">
+                    <div class="container-fluid d-flex justify-content-between">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-info text-white dropdown-toggle rounded-pill border border-light" id="dropdownMenuClickable" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+                              ALL CATEGORIES
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
+                                <li><button class="dropdown-item" type="button">Fruit & Vegetable</button></li>
+                                <li><button class="dropdown-item" type="button">Meat & Seafood</button></li>
+                                <li><button class="dropdown-item" type="button">Beakfast & Dairy</button></li>
+                                <li><button class="dropdown-item" type="button">Beverages</button></li>
+                                <li><button class="dropdown-item" type="button">Breads & Bakery</button></li>
+                                <li><button class="dropdown-item" type="button">Frozen Foods</button></li>
+                                <li><button class="dropdown-item" type="button">Biscuits& snacks</button></li>
+                                <li><button class="dropdown-item" type="button">Grocey & Staples</button></li>
+                                <hr>
+                                <li><button class="dropdown-item" type="button">Value of the Day</button></li>
+                                <li><button class="dropdown-item" type="button">Top 100 offers</button></li>
+                                <li><button class="dropdown-item" type="button">New Arrivals</button></li>
+                            </ul>
+                        </div>
+                        <nav class="navbar navbar-expand-lg">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-bs-toggle="" href="shop.html"
+                                             aria-expanded="false">SHOP</a>
+                                            </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="meat.html">MEAT & SEAFOOD</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="bakery.html">BAKERY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">BEVEAGES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">BLOG</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">CONTACT</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                    </div>
+                    </nav>
+                </div>
+                </nav>
+
+
+            </div>
+        </header>
+
+        <!-- her0 section start -->
+
+        <section>   
+            <div class="container">
+                <div class="hero-main">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/slider-image-1.jpg" class="d-block  carousel-img image-fluid " alt="...">
+                                <div class="carousel-caption d-block start-0 end-50">
+                                    <h2 class="text-dark display-1 text-wrap caroustext fw-bold">Specialist in the<br>grocery store</h2>
+                                    <p class="text-dark text-wrap caroustext">Only this week.Don't miss...</p>
+                                    <span class="text-dark text-wrap caroustext">form<strong
+                                            class="text-danger fs-1 text-wrap caroustext">$7.99</strong></span><br>
+                                    <button type="button" class="btn btn-primary">Shop Now <i
+                                            class="bi bi-arrow-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider-image-2.jpg" class="d-block carousel-img image-fluid" alt="...">
+                                <div class="carousel-caption d-block start-0 end-50">
+                                    <h2 class="text-dark display-1 fw-bold">Grocey full of<br>inspiration </h2>
+                                    <p class="text-dark">Only this week.Don't miss...</p>
+                                    <span class="text-dark">form<strong
+                                            class="text-danger fs-1">$6.99</strong></span><br>
+                                    <button type="button" class="btn btn-primary">Shop Now <i
+                                            class="bi bi-arrow-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slider-3.jpg" class="d-block carousel-img image-fluid" alt="...">
+                                <div class="carousel-caption d-block start-0 end-50">
+                                    <h2 class="text-dark display-1 fw-bold">Feed your family<br>the best</h2>
+                                    <p class="text-dark">Only this week.Don't miss...</p>
+                                    <span class="text-dark">form<strong
+                                            class="text-danger fs-1">$8.99</strong></span><br>
+                                    <button type="button" class="btn btn-primary">Shop Now <i
+                                            class="bi bi-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- best-seller -->
+
+        <section>
+            <div class="container">
+                <div class="main-seller">
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div id="banner-img">
+                                <a href="#" class="text-decoration-none text-dark px-5">
+                                    <span class="text-white mt-lg-4">Bacola Natural Foods</span>
+                                    <h3 class="fw-lighter px-5">Special Oganic</h3>
+                                    <h2 class="px-5">Roats Burger</h2>
+                                    <p class="fs-6  px-5">only-from</p>
+                                    <strong class="text-danger fs-2 px-5">$14.99</strong>
+                                </a>
+                            </div>
+                            <div id="banner-img2" class="mt-5">
+                                <a href="#" class="text-decoration-none text-dark px-5">
+                                    <span class="text-dark mt-lg-4 fw-lighter fs-4">Freshest Products</span>
+                                    <h3 class="fw-lighter px-5">Every hour.</h3>
+                                     <p class="fs-6  px-5">only-from</p>
+                                    <strong class="text-danger fs-2 px-5">$24.99</strong>
+                                    <button type="button" class="btn btn-primary mx-5"> Shop Now</button>
+                                </a>
+                            </div>
+                            <div class="bacola-app mt-5">
+                                <p class="fs-5 d-flex px-2"><i class="bi bi-file-arrow-down fs-4"></i> Download the
+                                    Bacola App to your Phone.</p>
+                                <hr>
+                                <p class="fs-5 d-flex px-2"><i class="bi bi-truck-front fs-4"></i> Order now so you dont
+                                    miss the opportunities</p>
+                                <hr>
+                                <p class="fs-5 d-flex px-2"><i class="bi bi-clock fs-4"></i>
+                                    Your order will arrive at your door in 15 minutes</p>
+
+                            </div>
+                            <div class="heading mt-5 mb-5">
+                                <h3>TRENDING PRODUCTS</h3>
+                            </div>
+                            <div class="products-item">
+
+                                <div class="product-wrap d-flex">
+                                    <div class="d-flex mb-5">
+                                        <img src="img/product-image-7.jpg" class="w-25">
+                                        <div>
+                                            <p>USDA choice Angus</p>
+                                            <del class="text-secondary">$79.99</del>
+                                            <span class="text-danger">$49.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-wrap d-flex">
+                                    <div class="d-flex mb-5">
+                                        <img src="img/product-image-48.jpg" class="w-25">
+                                        <div>
+                                            <h6>Encore Seafoods Stuffed Alaskan Salmon</h6>
+                                            <del class="text-secondary">$32.49</del>
+                                            <span class="text-danger">$27.49</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap d-flex">
+                                    <div class="d-flex mb-5">
+                                        <img src="img/product-image-4.jpg" class="w-25">
+                                        <div>
+                                            <h6>Warrior Blend Organic</h6>
+                                            <del class="text-secondary">$39.00</del>
+                                            <span class="text-danger">$29.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap d-flex">
+                                    <div class="d-flex mb-5">
+                                        <img src="img/product-image-5.jpg" class="w-25">
+                                        <div>
+                                            <h6>Vital Farms Pasture-Raised Egg Bites Bacon & Cheddar</h6>
+                                            <del class="text-secondary">$79.99</del>
+                                            <span class="text-danger">$49.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap d-flex">
+                                    <div class="d-flex mb-5">
+                                        <img src="img/product-image-46.jpg" class="w-25">
+                                        <div>
+                                            <h6>USDA choice Angus</h6>
+                                            <del class="text-secondary">$29.00</del>
+                                            <span class="text-danger">$25.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <h3 class="mt-5 mb-5">CUSTOMER COMMENT</h3>
+                            </div>
+                            <div class="testi-main" class="mt-5">
+                                <h5>The Best Marketplace</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut</p>
+                                <div class="test-img d-flex align-items-center" class="mt-5">
+                                    <img src="img/avatar-3.jpg" class="rounded-5">
+                                    <div>
+                                        <span>Tina Mcdonnell</span>
+                                        <p>Sales Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<!-- best seller -->
+
+                        <div class="col-lg-8">
+                            <h2>BEST SELLERS</h2>
+                            <p>Do not miss the current offers until the end of November.</p>
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="card" style="width: 12rem;">
+                                        <div class="card-body">
+                                            <img src="img/product-image-3-346x310.jpg" alt="poduct" class="">
+                                            <h5 class="fs-6 card-text">Weathe's Original Caramel Hard Candies</h5>
+                                            <span class="text-success">IN STOCKS</span><br>
+                                            <del>$4.29</del>
+                                            <span class="text-danger">$14.29</span>
+                                            <button type="button" class="btn btn-outline-info rounded-3">Add to
+                                                Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 12rem;">
+                                        <div class="card-body">
+                                            <img src="img/product-image-32-346x310.jpg" alt="poduct" class="">
+                                            <h5 class="fs-6 card-text">Nestle Original Coffee-Mate Coffee Creamer</h5>
+                                            <span class="text-success">IN STOCKS</span><br>
+                                            <del>$4.29</del>
+                                            <span class="text-danger">$11.29</span>
+                                            <button type="button" class="btn btn-outline-info rounded-3">Add to
+                                                Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 12rem;">
+                                        <div class="card-body">
+                                            <img src="img/product-image-46.jpg" alt="poduct" class="">
+                                            <h5 class="fs-6 card-text">Field Roast Chao Cheese Creamy Original</h5>
+                                            <span class="text-success">IN STOCKS</span><br>
+                                            <del>$4.29</del>
+                                            <span class="text-danger">$3.29</span>
+                                            <button type="button" class="btn btn-outline-info rounded-3">Add to
+                                                Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 12rem;">
+                                        <div class="card-body">
+                                            <img src="img/product-image-5-346x310.jpg" alt="poduct" class="">
+                                            <h5 class="fs-6 card-text">Vital Farms Pasture-Raised Egg Bites Bacon</h5>
+                                            <span class="text-success">IN STOCKS</span><br>
+                                            <del>$4.29</del>
+                                            <span class="text-danger">$3.29</span>
+                                            <button type="button" class="btn btn-outline-info rounded-3">Add to
+                                                Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 12rem;">
+                                        <div class="card-body">
+                                            <img src="img/product-image-59-346x310.jpg" alt="poduct" class="">
+                                            <h5 class="fs-6 card-text">Blue Diamond Almonds Lightly Salted</h5>
+                                            <span class="text-success">IN STOCKS</span><br>
+                                            <del>$4.29</del>
+                                            <span class="text-danger">$3.29</span>
+                                            <button type="button" class="btn btn-outline-info rounded-3">Add to
+                                                Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width:12rem;">
+                                        <div class="card-body">
+                                            <img src="img/product-image-60-346x310.jpg" alt="poduct" class="">
+                                            <h5 class="fs-6 card-text">Angie's Boomchickapop Sweet</h5>
+                                            <span class="text-success">IN STOCKS</span><br>
+                                            <del>$4.29</del>
+                                            <span class="text-danger">$3.29</span>
+                                            <button type="button" class="btn btn-outline-info rounded-3">Add to
+                                                Cart</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width:12rem;">
+                                        <div class="card-body">
+                                            <img src="img/product-image-62-346x310.jpg" alt="poduct" class="">
+                                            <h5 class="fs-6 card-text">All Natural Italian-Style Chicken Meatballs</h5>
+                                            <span class="text-success">IN STOCKS</span><br>
+                                            <del>$9.29</del>
+                                            <span class="text-danger">$7.29</span>
+                                            <button type="button" class="btn btn-outline-info rounded-3">Add to
+                                                Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 12rem;height: 325px;">
+                                        <div class="card-body">
+                                            <img src="img/product-image-7-346x310.jpg" alt="poduct" class="">
+                                            <h5 class="fs-6 card-text">USDA choice Angus</h5>
+                                            <span class="text-success">IN STOCKS</span><br>
+                                            <del>$4.29</del>
+                                            <span class="text-danger">$3.29</span>
+                                            <button type="button" class="btn btn-outline-info rounded-3">Add to
+                                                Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+<!-- saftey banner                             -->
+                            <div class="Saftey-banner">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <p class="lh-base">Always Taking Care</p>
+                                        <h2 class="fs-5">In store or online your health & safety is our top
+                                            priority</h2>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="img/banner-box2.jpg" alt="" class="w-100 align-items-end">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-week py-5">
+                                <div class="row d-flex justify-content-between">
+                                    <div class="col-8">
+                                        <h4 class="">HOT PRODUCT FOR <span class="text-danger fs-2">THIS WEEK</span></h4>
+                                        <p>Dont miss this opportunity at a special discount just for this week.</p>
+                                    </div>
+                                    <div class="col-4 ms-0">
+                                        <button type="button" class="btn btn-outline-secondary float-end ">View All <i
+                                                class="bi bi-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chobani">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="img/product-image-50.jpg" alt="" class="w-100">
+
+                                    </div>
+                                    <div class="col-9">
+                                        <del>$5.49</del>
+                                        <span class="text-danger">$4.49</span>
+                                        <h5>Chobani Complete Vanilla Greek Yogurt</h5>
+                                        <span>1kg</span><strong class="text-success">IN STOCKS</strong>
+                                        <div class="progress" role="progressbar" aria-label="Animated striped example"
+                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                                style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="discount mt-5">
+                                    <a href="#" class="text-decoration-none text-danger"><span>Super discount for your
+                                            fist purchase</span> <button type="button"
+                                            class="btn btn-danger">FREE25BAC</button> <strong>Use discount code in
+                                            checkout!</strong></a>
+                                </div>
+                            </div>
+   <!-- //new product                          -->
+                            <div class="col-12 py-3 d-flex justify-content-between">
+                                <div class="new-products">
+                                    <h2>NEW PRODUCTS</h2>
+                                    <p>New products with updated stocks.</p>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-outline-secondary float-end ">View All <i
+                                            class="bi bi-arrow-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="items-cate">
+                                <div class="col-9">
+                                    <div class="card-group">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/product-image-45-346x310.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Foster Farms Takeout Crispy Classic Buffalo Wings
+                                                </h5>
+                                                <p class="card-text text-success">IN STOCKS</p>
+                                                <span class="card-text text-danger">$7.25 – $49.99</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/product-image-58-346x310.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Blueberries – 1 Pint Package</h5>
+                                                <p class="card-text text-success">IN STOCKS</p>
+                                                <del>$4.49</del>
+                                                <span class="card-text text-danger">$3.39</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/product-image-46.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Field Roast Chao Cheese Creamy Original</h5>
+                                                <p class="card-text text-success">IN STOCKS</p>
+                                                <del>$4.49</del>
+                                                <span class="card-text text-danger">$3.39</span>
+
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/product-image-57-346x310.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Fresh Organic Broccoli Crowns</h5>
+                                                <p class="card-text text-success">IN STOCKS</p>
+                                                <del>$6.67</del>
+                                                <span class="card-text text-danger">$4.85</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="card-group">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/product-image-50.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Chobani Complete Vanilla Greek Yogurt</h5>
+                                                <p class="card-text text-success">IN STOCKS</p>
+                                                <del>$5.49</del>
+                                                <span class="card-text text-danger">$4.49</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/product-image-59-346x310.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Blue Diamond Almonds Lightly Salted</h5>
+                                                <p class="card-text text-success">IN STOCKS</p>
+                                                <del>$11.68</del>
+                                                <span class="card-text text-danger">$10.58</span>
+                                            </div>
+
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/product-image-60-346x310.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Angie’s Boomchickapop Sweet & Salty Kettle Corn
+                                                </h5>
+                                                <p class="card-text text-success">IN STOCKS</p>
+                                                <del>$4.29</del>
+                                                <span class="card-text text-danger">$3.29</span>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="img/product-image-62-346x310.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">All Natural Italian-Style Chicken Meatballs</h5>
+                                                <p class="card-text text-success">IN STOCKS</p>
+                                                <del>$9.35</del>
+                                                <span class="card-text text-danger">$7.25</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row m-3 gap-0">
+                                    <div class=" col-6 banner-thumbnail rounded-3">
+                                        <span class="text-success">WEEKAND DISCOUNT 40%</span>
+                                        <H2>Legumes & Cereals</H2>
+                                        <p>Feed your family the best</p>
+                                        <button type="button" class="btn btn-secondary">Shop Now</button>
+                                    </div>
+                                    <div class=" col-6 banner-thumbnail2 rounded-3">
+                                        <span class="text-success">WEEKAND DISCOUNT 40%</span>
+                                        <H2>Dairy & Eggs</H2>
+                                        <p>A different kind of grocery store</p>
+                                        <button type="button" class="btn btn-secondary">Shop Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- items-stocks -->
+
+        <section>
+            <div class="container">
+                <div class="item-stocks">
+                    <div class="row">
+                        <div class="col-4 main-cate">
+                            <img src="img/baverages-1.jpg">
+                            <div class="align-items-center">
+                                <p>Beverages</p>
+                                <span>11 Items</span>
+                            </div>
+
+                        </div>
+                        <div class="col-8 category-item">
+                            <div>
+                                <img src="img/biscuitssnacks-1.jpg" class="w-75">
+                                <div>
+                                    <p>Biscuits & Snacks</p>
+                                    <span>6 Items</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="img/breadbakery-1.jpg" class="w-75">
+                                <p>Bread & Backery</p>
+                                <span>6 Items</span>
+                            </div>
+                            <div>
+                                <img src="img/category-image2.png" class="w-75">
+                                <p>Grocery & Stapels</p>
+                                <span>7 Items</span>
+                            </div>
+                            <div>
+                                <img src="img/category-image4.png" class="w-75">
+                                <p>Frozen Food</p>
+                                <span>6 Items</span>
+                            </div>
+                            <div>
+                                <img src="img/dairy-1.jpg" class="w-75">
+                                <p>Breakfast & Dairy</p>
+                                <span>6 Items</span>
+                            </div>
+                            <div>
+                                <img src="img/fruitvegetables-1.jpg" class="w-75">
+                                <p>Fruit & Vegetable</p>
+                                <span>6 Items</span>
+                            </div>
+                            <div>
+                                <img src="img/household-1.jpg" class="w-75">
+                                <p>HouseHold Needs</p>
+                                <span>6 Items</span>
+                            </div>
+                            <div>
+                                <img src="img/meat-1.jpg" class="w-75">
+                                <p>Meat & Seafood</p>
+                                <span>5 Items</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- discount -->
+
+        <section class="main-dis mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 text-white mt-5">
+                        <span>$20 discount for your first order</span>
+                        <h2>Join our newsletter and get...</h2>
+                        <p class="text-secondary">Join our email subscription now to get updates on promotions and coupons</p>
+                        <input type="email" class="form-control" id="floatingInput" placeholder="Email Address">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/coupon.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer class="mt-5">
+            <div class="container">
+                <div class="row text-black">
+                    <div class="col">
+                        <ul><strong class="fw-bold">Fruit & Vegetable</strong>
+                            <li><a href="#">Fresh vegetable</a></li>
+                            <li><a href="#">Herbs & Seasoing</a></li>
+                            <li><a href="#">Fresh Fruits</a></li>
+                            <li><a href="#">Cuts & Spourts</a></li>
+                            <li><a href="#">Exotic Fruit & Veggies</a></li>
+                            <li><a href="#">Packed Produce</a></li>
+                            <li><a href="#">Party Trays</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul><strong class="fw-bold">Breakfast & Dairy</strong>
+                            <li><a href="#">Milk & Flavoured Milk</a></li>
+                            <li><a href="#">Butter and Margaine</a></li>
+                            <li><a href="#">Cheese</a></li>
+                            <li><a href="#">Egg Subsitutes</a></li>
+                            <li><a href="#">Honey</a></li>
+                            <li><a href="#">Marmalades</a></li>
+                            <li><a href="#">Packed Produce</a></li>
+                            <li><a href="#">Yogurt</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul><strong class="fw-bold">MEAT & SEAFOOD</strong>
+                            <li><a href="#">Breakfast Sausage</a></li>
+                            <li><a href="#">Dinner Sausage</a></li>
+                            <li><a href="#">Cheese</a></li>
+                            <li><a href="#">Chicken</a></li>
+                            <li><a href="#">Sliced Deli Meat</a></li>
+                            <li><a href="#">Shrimp</a></li>
+                            <li><a href="#">Packed Produce</a></li>
+                            <li><a href="#">Farm Raised Fillets</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul><strong class="fw-bold">BEVERAGES</strong>
+                            <li><a href="#">Water</a></li>
+                            <li><a href="#">Sparkling Water</a></li>
+                            <li><a href="#">Soda & Pop</a></li>
+                            <li><a href="#">Coffee</a></li>
+                            <li><a href="#">Milk & Plant-Based Milk</a></li>
+                            <li><a href="#">Tea & Kombucha</a></li>
+                            <li><a href="#">Drink Boxes & Pouches</a></li>
+                            <li><a href="#">Craft Beer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul><strong class="fw-bold">BREADS & BAKERY</strong>
+                            <li><a href="#">Milk & Flavoured Milk</a></li>
+                            <li><a href="#"> Butter and Margarine</a></li>
+                            <li><a href="#">Cheese</a></li>
+                            <li><a href="#">Eggs Substitutes</a></li>
+                            <li><a href="#">Honey</a></li>
+                            <li><a href="#">Marmalades</a></li>
+                            <li><a href="#">Packed Produce</a></li>
+                            <li><a href="#">Sour Cream and Dips</a></li>
+                        </ul>
+                    </div>
+         </div>
+            </div>
+        </footer>
+
+        <section class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <i class="bi bi-telephone">8 800 555-55</i>
+                        <p>Working 8:00 - 22:00</p>
+                    </div>
+                    <div class="col-xl-6 d-flex">
+                        <div class="dis">
+                            <h4 class="fs-6 fw-bold">Download App on Mobile :</h4>
+                            <p class="fs-6">15% discount on your first purchase</p>
+                        </div>
+                        <div class="dis-img">
+                            <img src="img/google-play.png" class="img-fluid w-25" alt="...">
+                            <img src="img/app-store.png" class="img-fluid w-25" alt="...">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter-x"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- last footer -->
+
+        <section class="m-5">
+            <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-xl-12 col-lg-6 col-md-4 col-sm-3  d-flex">
+                    <p class="fs-6">Copyright 2023 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</p>
+                    <div class="d-flex">
+                        <p class="fs-6">Privacy Policy</p>
+                        <p class="fs-6">Term and Condition</p>
+                        <p class="fs-6">Cookie</p> 
+                    </div>
+                        <img src="img/payments.jpg" class="img-fluid" alt="...">
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/ecom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,  
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+    <script>
+        i = 0
+        arr = new Array("black", "green", "orange", "yellow", "blue", "red")
+        function graphic() {
+            d = new Date()
+            Hours = d.getHours();
+            Min = d.getMinutes();
+            Sec = d.getSeconds();
+            ttime = Hours + ":" + Min + ":" + Sec;
+            {
+                document.getElementById('hello').innerHTML = ttime;
+                document.getElementById('hello').style.color = arr[i];
+                i++;
+                if (i == 5) {
+                    i = 0
+                }
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+@font-face
+{
+	src:url(..//fontfamily/Inter-Medium.ttf);
+	font-family:nice;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family:nice!important;
+}
+main
+{  
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 90%;
+}
+.carousel-img{
+    width: 100%;
+    height: 550px;;
+}
+.card-text {
+    height: 58px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-title {
+    height: 68px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#banner-img
+{
+    background-image: url(..//img/banner-box.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 16%;
+    border-radius: 10px;
+}
+#banner-img2
+{
+    background-image: url(..//img/bacola-banner-04.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 16%;
+    border-radius: 10px;
+
+}
+.testi-main
+{
+    background:#f1e7eb;
+}
+.Saftey-banner
+{
+    background: #f1e7eb;
+    border-radius: 10px;
+}
+.chobani
+{
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+.bacola-app
+{
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    width: 70%;
+}
+.products-item
+{
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    width: 70%;
+}
+.discount
+{
+    background: #f1e7eb;
+}
+.card-group {
+    width: 145%;
+}
+.banner-thumbnail
+{
+    background-image: url(..//img/bacola-banner-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.banner-thumbnail2
+{
+    background-image: url(..//img/bacola-banner-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.category-item
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 2px solid rgb(180, 180, 180);
+}
+.main-cate
+{
+    border: 2px solid rgb(180, 180, 180);
+
+}
+.main-dis
+{
+    background-color: #233a95;
+}
+footer ul li a
+{
+    text-decoration:none;
+    color: black;
+    
+}
+footer ul
+{
+    list-style:none;
+
+}
+footer ul li
+{
+    list-style: none;
+}
+
+@media only screen and (max-width:500px)
+{
+    .first-header{
+        display: none;
+    }
+}
