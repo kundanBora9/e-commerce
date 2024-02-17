@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<style>
+    .card-title {
+            height: 58px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .custom-img {
+                
+                object-fit: contain;
+                object-position: center;
+                border-radius: 50rem;
+            }
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid first-header">
+            <div class="upper-head d-flex justify-content-evenly my-2">
+                <div class="upper-nav">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-body-emphasis">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-body-emphasis">My account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-body-emphasis">Wishlist</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-body-emphasis">Order Tracking</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="upper_head d-flex justify-content-evenly align-items-center">
+                    <span><i class="bi bi-shield-check"></i>100% Secure delivery without contacting the
+                        courier</span>
+                    <span class="px-3">Need help? Call Us:<a href="#">+0020 500</a></span>
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        English
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Hindi</a></li>
+                        <li><a class="dropdown-item" href="#">Spanish</a></li>
+                    </ul>
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        USD
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">USD</a></li>
+                        <li><a class="dropdown-item" href="#">INR</a></li>
+                        <li><a class="dropdown-item" href="#">EURO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class=" container  py-1 mb-1">
+            <div class="d-flex justify-content-lg-between">
+                <div class="logo d-flex">
+                    <a href="index.html" class="d-flex align-items-center mb-3">
+                        <img src="img/bacola-logo.png" width="164px">
+                    </a>
+                    <div class="btn-group px-2">
+                        <button type="button" class="btn btn-close-white dropdown-toggle fs-6 border border-secondary"
+                            data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                            Your Location<br><span class="text-primary">Select A Location</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-lg-end">
+                            <h2 class="fs-5">Choose your Delivery Location</h2>
+                            <p class="fs-6">Enter your address and we will specify the offer for your area.</p>
+                            <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+                                <input type="search" class="form-control form-control-lg" placeholder="Search..."
+                                    aria-label="Search">
+                            </form>
+                            <li><button class="dropdown-item" type="button">Select a location</button></li>
+                            <li><button class="dropdown-item" type="button">Australia</button></li>
+                            <li><button class="dropdown-item" type="button">Argentina</button></li>
+                            <li><button class="dropdown-item" type="button">India</button></li>
+                            <li><button class="dropdown-item" type="button">United State</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <form class="col-6  mb-3 mb-lg-0" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+                <div class="sign">
+                    <a href="#"><i class="bi bi-person fs-4"></i></a>
+                    <a href="#" class="badge text-bg-secondary"><i class="bi bi-bag fs-4"></i></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="drop-down d-flex">
+            <div class="container-fluid d-flex justify-content-between">
+                <div class="btn-group">
+                    <button type="button"
+                        class="btn btn-info text-white dropdown-toggle rounded-pill border border-light"
+                        id="dropdownMenuClickable" data-bs-toggle="dropdown" data-bs-auto-close="false"
+                        aria-expanded="false">
+                        ALL CATEGORIES
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
+                        <li><button class="dropdown-item" type="button">Fruit & Vegetable</button></li>
+                        <li><button class="dropdown-item" type="button">Meat & Seafood</button></li>
+                        <li><button class="dropdown-item" type="button">Beakfast & Dairy</button></li>
+                        <li><button class="dropdown-item" type="button">Beverages</button></li>
+                        <li><button class="dropdown-item" type="button">Breads & Bakery</button></li>
+                        <li><button class="dropdown-item" type="button">Frozen Foods</button></li>
+                        <li><button class="dropdown-item" type="button">Biscuits& snacks</button></li>
+                        <li><button class="dropdown-item" type="button">Grocey & Staples</button></li>
+                        <hr>
+                        <li><button class="dropdown-item" type="button">Value of the Day</button></li>
+                        <li><button class="dropdown-item" type="button">Top 100 offers</button></li>
+                        <li><button class="dropdown-item" type="button">New Arrivals</button></li>
+                    </ul>
+                </div>
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="" href="shop.html" aria-expanded="false">SHOP</a>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="meat.html">MEAT & SEAFOOD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="bakery.html">BAKERY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="beveages.html">BEVEAGES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+
+                    </div>
+            </div>
+            </nav>
+        </div>
+        </nav>
+        </div>
+    </header>
+    <main>
+          <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="text-center">
+                        <h2 class="display-5">Get In Touch</h2>
+                        <p class="fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quaerat unde quam dolor culpa veritatis inventore, aut commodi eum veniam vel</p>
+                    </div>   
+                    <div class="d-flex justify-content-center align-item-center gap-5">
+                        <div class="bg-secondary text-white p-5">
+                           <div class="icon text-center">
+                            <i class="bi bi-geo-alt-fill text-primary display-5"></i>
+                            <h6 class="text-dark fs-5">102 Street 2714 Donovan</h6>
+                            <p class="text-dark">Lorem ipsum dolar site amet discont</p>
+                           </div> 
+                        </div>
+                        <div class="bg-secondary text-white p-5">
+                            <div class="icon text-center">
+                                <i class="bi bi-telephone-fill text-primary display-5"></i>
+                                <h6 class="text-dark fs-5">+02 1234 567 88</h6>
+                                <p class="text-dark">Lorem ipsum dolar site amet discont</p>
+                               </div>
+                        </div>
+                        <div class="bg-secondary text-white p-5">
+                            <div class="icon text-center">
+                                <i class="bi bi-envelope-at-fill text-primary display-5"></i>
+                                <h6 class="text-dark fs-5">info@example.com</h6>
+                                <p class="text-dark">Lorem ipsum dolar site amet discont</p>
+                               </div>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+          </div>
+
+          <section class="m-5 shadow-lg p-3 mb-5 bg-body rounded">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="text-center">
+                        <h6 class="fs-1">Send Us</h6>
+                        <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita quaerat unde quam dolor culpa veritatis inventore, aut commodi eum veniam vel.</p>
+                        </div>    
+                    </div>
+                </div>
+
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Your Name</label>
+                      <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Your Email</label>
+                      <input type="email" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Subject</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="">
+                    </div>
+                    <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-12 m-5">
+                      <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                  </form>
+
+            </div>
+          </section>
+
+        
+
+        <section class="main-dis mt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 text-white mt-5">
+                        <span>$20 discount for your first order</span>
+                        <h2>Join our newsletter and get...</h2>
+                        <p class="text-secondary">Join our email subscription now to get updates on promotions and coupons</p>
+                        <input type="email" class="form-control" id="floatingInput" placeholder="Email Address">
+                    </div>
+                    <div class="col-6">
+                        <img src="img/coupon.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer class="mt-5">
+            <div class="container">
+                <div class="row text-black">
+                    <div class="col">
+                        <ul><strong class="fw-bold">Fruit & Vegetable</strong>
+                            <li><a href="#">Fresh vegetable</a></li>
+                            <li><a href="#">Herbs & Seasoing</a></li>
+                            <li><a href="#">Fresh Fruits</a></li>
+                            <li><a href="#">Cuts & Spourts</a></li>
+                            <li><a href="#">Exotic Fruit & Veggies</a></li>
+                            <li><a href="#">Packed Produce</a></li>
+                            <li><a href="#">Party Trays</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul><strong class="fw-bold">Breakfast & Dairy</strong>
+                            <li><a href="#">Milk & Flavoured Milk</a></li>
+                            <li><a href="#">Butter and Margaine</a></li>
+                            <li><a href="#">Cheese</a></li>
+                            <li><a href="#">Egg Subsitutes</a></li>
+                            <li><a href="#">Honey</a></li>
+                            <li><a href="#">Marmalades</a></li>
+                            <li><a href="#">Packed Produce</a></li>
+                            <li><a href="#">Yogurt</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul><strong class="fw-bold">MEAT & SEAFOOD</strong>
+                            <li><a href="#">Breakfast Sausage</a></li>
+                            <li><a href="#">Dinner Sausage</a></li>
+                            <li><a href="#">Cheese</a></li>
+                            <li><a href="#">Chicken</a></li>
+                            <li><a href="#">Sliced Deli Meat</a></li>
+                            <li><a href="#">Shrimp</a></li>
+                            <li><a href="#">Packed Produce</a></li>
+                            <li><a href="#">Farm Raised Fillets</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul><strong class="fw-bold">BEVERAGES</strong>
+                            <li><a href="#">Water</a></li>
+                            <li><a href="#">Sparkling Water</a></li>
+                            <li><a href="#">Soda & Pop</a></li>
+                            <li><a href="#">Coffee</a></li>
+                            <li><a href="#">Milk & Plant-Based Milk</a></li>
+                            <li><a href="#">Tea & Kombucha</a></li>
+                            <li><a href="#">Drink Boxes & Pouches</a></li>
+                            <li><a href="#">Craft Beer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul><strong class="fw-bold">BREADS & BAKERY</strong>
+                            <li><a href="#">Milk & Flavoured Milk</a></li>
+                            <li><a href="#"> Butter and Margarine</a></li>
+                            <li><a href="#">Cheese</a></li>
+                            <li><a href="#">Eggs Substitutes</a></li>
+                            <li><a href="#">Honey</a></li>
+                            <li><a href="#">Marmalades</a></li>
+                            <li><a href="#">Packed Produce</a></li>
+                            <li><a href="#">Sour Cream and Dips</a></li>
+                        </ul>
+                    </div>
+         </div>
+            </div>
+        </footer>
+
+        <section class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <i class="bi bi-telephone">8 800 555-55</i>
+                        <p>Working 8:00 - 22:00</p>
+                    </div>
+                    <div class="col-xl-6 d-flex">
+                        <div class="dis">
+                            <h4 class="fs-6 fw-bold">Download App on Mobile :</h4>
+                            <p class="fs-6">15% discount on your first purchase</p>
+                        </div>
+                        <div class="dis-img">
+                            <img src="img/google-play.png" class="img-fluid w-25" alt="...">
+                            <img src="img/app-store.png" class="img-fluid w-25" alt="...">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter-x"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- last footer -->
+
+        <section class="m-5">
+            <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-xl-12 col-lg-6 col-md-4 col-sm-3  d-flex">
+                    <p class="fs-6">Copyright 2023 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</p>
+                    <div class="d-flex">
+                        <p class="fs-6">Privacy Policy</p>
+                        <p class="fs-6">Term and Condition</p>
+                        <p class="fs-6">Cookie</p> 
+                    </div>
+                        <img src="img/payments.jpg" class="img-fluid" alt="...">
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
